@@ -12,7 +12,7 @@ Clone the repo locally:
 
 ```sh
 git clone https://github.com/jrson83/pingcrm-preact.git pingcrm-preact
-cd pingcrm
+cd pingcrm-preact
 ```
 
 Install PHP dependencies:
@@ -24,16 +24,16 @@ composer install
 Install NPM dependencies:
 
 ```sh
-npm ci
+npm i
 ```
 
-Build assets:
+Build assets first time:
 
 ```sh
 npm run init
 ```
 
-After init use:
+For development with nodemon run:
 
 ```sh
 npm run dev
