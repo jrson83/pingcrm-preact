@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { useState, useEffect } from 'preact/hooks'
 import { usePage } from '@jrson83/inertia-preact'
 
@@ -11,7 +12,7 @@ export default () => {
   }, [flash, errors])
 
   return (
-    <div>
+    <Fragment>
       {flash.success && visible && (
         <div class="flex items-center justify-between mb-8 max-w-3xl bg-green-500 rounded">
           <div class="flex items-center">
@@ -70,6 +71,6 @@ export default () => {
           </button>
         </div>
       )}
-    </div>
+    </Fragment>
   )
 }

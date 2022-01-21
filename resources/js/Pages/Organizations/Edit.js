@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { Head, usePage, useForm, Link } from '@jrson83/inertia-preact'
 import { Inertia } from '@inertiajs/inertia'
 import Layout from '@/Shared/Layout'
@@ -43,7 +44,7 @@ const Edit = () => {
   }
 
   return (
-    <div>
+    <Fragment>
       <Head title={`${data.name}`} />
       <h1 class="mb-8 text-3xl font-bold">
         <Link class="text-indigo-400 hover:text-indigo-600" href="/organizations">
@@ -189,7 +190,7 @@ const Edit = () => {
           </tbody>
         </table>
       </div>
-    </div>
+    </Fragment>
   )
 }
 

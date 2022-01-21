@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { Head, usePage, Link } from '@jrson83/inertia-preact'
 import Layout from '@/Shared/Layout'
 import Icon from '@/Shared/Icon'
@@ -9,7 +10,7 @@ const Index = () => {
   const { data } = contacts
 
   return (
-    <div>
+    <Fragment>
       <Head title="Contacts" />
       <h1 class="mb-8 text-3xl font-bold">Contacts</h1>
       <div class="flex items-center justify-between mb-6">
@@ -73,7 +74,7 @@ const Index = () => {
         </table>
       </div>
       <Pagination class="mt-6" links={contacts.links} />
-    </div>
+    </Fragment>
   )
 }
 

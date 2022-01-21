@@ -1,9 +1,10 @@
+import { Fragment } from 'preact'
 import { Head, Link } from '@jrson83/inertia-preact'
 import Layout from '@/Shared/Layout'
 
 const Dashboard = () => {
   return (
-    <div>
+    <Fragment>
       <Head title="Dashboard" />
       <h1 class="mb-8 text-3xl font-bold">Dashboard</h1>
       <p class="mb-8 leading-normal">
@@ -28,7 +29,7 @@ const Dashboard = () => {
       <p class="leading-normal">
         👆 These links are intended to be broken to illustrate how error handling works with Inertia.js.
       </p>
-    </div>
+    </Fragment>
   )
 }
 

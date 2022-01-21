@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { Head, usePage, useForm, Link } from '@jrson83/inertia-preact'
 import { Inertia } from '@inertiajs/inertia'
 import Layout from '@/Shared/Layout'
@@ -42,7 +43,7 @@ const Edit = () => {
   }
 
   return (
-    <div>
+    <Fragment>
       <Head title={`${data.first_name} ${data.last_name}`} />
       <div class="flex justify-start mb-8 max-w-3xl">
         <h1 class="text-3xl font-bold">
@@ -128,7 +129,7 @@ const Edit = () => {
           </div>
         </form>
       </div>
-    </div>
+    </Fragment>
   )
 }
 
