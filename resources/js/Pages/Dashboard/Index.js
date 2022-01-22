@@ -19,10 +19,10 @@ const Dashboard = () => {
         .
       </p>
       <div class="flex mb-8">
-        <Link className="btn-indigo mr-1" href="/500">
+        <Link class="btn-indigo mr-1" href="/500">
           500 error
         </Link>
-        <Link className="btn-indigo" href="/404">
+        <Link class="btn-indigo" href="/404">
           404 error
         </Link>
       </div>

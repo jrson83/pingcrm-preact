@@ -3,7 +3,7 @@ import { useState, useRef } from 'preact/hooks'
 const Button = ({ text, onClick }) => (
   <button
     type="button"
-    className="px-4 py-1 text-white text-xs font-medium bg-gray-600 hover:bg-gray-700 rounded-sm focus:outline-none"
+    class="px-4 py-1 text-white text-xs font-medium bg-gray-600 hover:bg-gray-700 rounded-sm focus:outline-none"
     onClick={onClick}
   >
     {text}

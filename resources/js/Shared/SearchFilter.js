@@ -55,13 +55,13 @@ export default () => {
   }
 
   return (
-    <div className="flex items-center mr-4 w-full max-w-md">
-      <div className="relative flex w-full bg-white rounded shadow">
-        <div style={{ top: '100%' }} className={`absolute ${opened ? '' : 'hidden'}`}>
-          <div onClick={() => setOpened(false)} className="fixed z-20 inset-0 bg-black opacity-25"></div>
-          <div className="relative z-30 mt-2 px-4 py-6 w-64 bg-white rounded shadow-lg">
+    <div class="flex items-center mr-4 w-full max-w-md">
+      <div class="relative flex w-full bg-white rounded shadow">
+        <div style={{ top: '100%' }} class={`absolute ${opened ? '' : 'hidden'}`}>
+          <div onClick={() => setOpened(false)} class="fixed z-20 inset-0 bg-black opacity-25"></div>
+          <div class="relative z-30 mt-2 px-4 py-6 w-64 bg-white rounded shadow-lg">
             {filters.hasOwnProperty('role') && (
-              <SelectInput className="mb-4" label="Role" name="role" value={values.role} onChange={handleChange}>
+              <SelectInput class="mb-4" label="Role" name="role" value={values.role} onChange={handleChange}>
                 <option value=""></option>
                 <option value="user">User</option>
                 <option value="owner">Owner</option>
@@ -76,12 +76,12 @@ export default () => {
         </div>
         <button
           onClick={() => setOpened(true)}
-          className="focus:z-10 px-4 hover:bg-gray-100 border-r focus:border-white rounded-l focus:outline-none focus:ring-2 focus:ring-indigo-400 md:px-6"
+          class="focus:z-10 px-4 hover:bg-gray-100 border-r focus:border-white rounded-l focus:outline-none focus:ring-2 focus:ring-indigo-400 md:px-6"
         >
-          <div className="flex items-baseline">
-            <span className="hidden text-gray-700 md:inline">Filter</span>
+          <div class="flex items-baseline">
+            <span class="hidden text-gray-700 md:inline">Filter</span>
             <svg
-              className="w-2 h-2 text-gray-700 fill-current md:ml-2"
+              class="w-2 h-2 text-gray-700 fill-current md:ml-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 961.243 599.998"
             >
@@ -90,7 +90,7 @@ export default () => {
           </div>
         </button>
         <input
-          className="relative px-6 py-3 w-full rounded-r focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          class="relative px-6 py-3 w-full rounded-r focus:outline-none focus:ring-2 focus:ring-indigo-400"
           autoComplete="off"
           type="text"
           name="search"
@@ -102,7 +102,7 @@ export default () => {
       </div>
       <button
         onClick={reset}
-        className="focus:text-indigo-700 ml-3 text-gray-600 hover:text-gray-700 text-sm focus:outline-none"
+        class="focus:text-indigo-700 ml-3 text-gray-600 hover:text-gray-700 text-sm focus:outline-none"
         type="button"
       >
         Reset
