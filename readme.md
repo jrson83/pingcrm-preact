@@ -6,6 +6,12 @@ A demo application to illustrate how [Inertia.js](https://inertiajs.com/) works 
 
 ![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
 
+## Live demo
+
+A live demo of the app is available at [https://pingcrm-preact.jrson.de/](https://pingcrm-preact.jrson.de/).
+
+> The Ping CRM demo is hosted in Germany, and the database is reset every hour. Please be respectful when editing data.
+
 ## Installation
 
 Clone the repo locally:
