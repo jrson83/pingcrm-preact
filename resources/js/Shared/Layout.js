@@ -1,4 +1,4 @@
-import { Head } from '@jrson83/inertia-preact'
+import { Fragment } from 'preact'
 import MainMenu from '@/Shared/MainMenu'
 import TopHeader from '@/Shared/TopHeader'
 import BottomHeader from '@/Shared/BottomHeader'
@@ -6,7 +6,7 @@ import FlashMessages from '@/Shared/FlashMessages'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <Fragment>
       <div class="flex flex-col">
         <div class="flex flex-col h-screen">
           <div class="md:flex">
@@ -23,6 +23,6 @@ export default function Layout({ children }) {
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   )
 }

@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { Head, useForm, Link } from '@jrson83/inertia-preact'
 import Layout from '@/Shared/Layout'
 import TextInput from '@/Shared/TextInput'
@@ -27,7 +28,7 @@ const Create = () => {
   }
 
   return (
-    <div>
+    <Fragment>
       <Head title="Create Organization" />
       <h1 class="mb-8 text-3xl font-bold">
         <Link class="text-indigo-400 hover:text-indigo-600" href="/organizations">
@@ -114,7 +115,7 @@ const Create = () => {
           </div>
         </form>
       </div>
-    </div>
+    </Fragment>
   )
 }
 

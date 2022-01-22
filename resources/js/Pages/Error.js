@@ -1,3 +1,4 @@
+import { Fragment } from 'preact'
 import { Head } from '@jrson83/inertia-preact'
 
 export default function ErrorPage({ status }) {
@@ -16,7 +17,7 @@ export default function ErrorPage({ status }) {
   }[status]
 
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>{title} - Ping CRM</title>
       </Head>
@@ -30,6 +31,6 @@ export default function ErrorPage({ status }) {
           </a>
         </div>
       </section>
-    </div>
+    </Fragment>
   )
 }
