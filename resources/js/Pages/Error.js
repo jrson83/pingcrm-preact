@@ -17,9 +17,9 @@ export default function ErrorPage({ status }) {
   }[status]
 
   return (
-    <Fragment>
+    <div>
       <Head>
-        <title>{title} - Ping CRM</title>
+        <title>{title}</title>
       </Head>
 
       <section class="body-font text-gray-600">
@@ -31,6 +31,6 @@ export default function ErrorPage({ status }) {
           </a>
         </div>
       </section>
-    </Fragment>
+    </div>
   )
 }
