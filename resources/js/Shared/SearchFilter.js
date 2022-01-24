@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'preact/hooks'
 import { usePage } from '@jrson83/inertia-preact'
 import { Inertia } from '@inertiajs/inertia'
+import { pickBy } from '@/utils'
 import SelectInput from '@/Shared/SelectInput'
-import pickBy from 'lodash/pickBy'
 
 export default () => {
   const { filters } = usePage().props

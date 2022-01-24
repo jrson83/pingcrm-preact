@@ -1,4 +1,5 @@
 import { useState, useRef } from 'preact/hooks'
+import { filesize } from '@/utils'
 
 const Button = ({ text, onClick }) => (
   <button
@@ -28,11 +29,6 @@ export default ({ name, label, accept, errors = [], onChange, ...rest }) => {
     const file = e.target.files[0]
     setFile(file)
     onChange(file)
-  }
-
-  function filesize(size) {
-    var i = Math.floor(Math.log(size) / Math.log(1024))
-    return (size / Math.pow(1024, i)).toFixed(2) * 1 + ' ' + ['B', 'kB', 'MB', 'GB', 'TB'][i]
   }
 
   return (
