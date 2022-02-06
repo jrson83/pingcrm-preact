@@ -156,7 +156,7 @@ const Edit = () => {
           </div>
           <div class="flex items-center px-8 py-4 bg-gray-50 border-t border-gray-100">
             {!contact.deleted_at && (
-              <button class="text-red-600 hover:underline" tabindex="-1" type="button" onDelete={handleDestroy}>
+              <button class="text-red-600 hover:underline" tabindex="-1" type="button" onClick={handleDestroy}>
                 Delete Contact
               </button>
             )}
