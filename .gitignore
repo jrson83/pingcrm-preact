@@ -21,3 +21,5 @@ yarn-error.log
 /.vscode
 composer.lock
 package-lock.json
+forever.json
+config/htmlminify.php
