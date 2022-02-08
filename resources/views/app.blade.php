@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#F1F5F9">
+    <meta name="referrer" content="origin-when-cross-origin">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="apple-touch-icon" href="/pwa/icon-192x192.png">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

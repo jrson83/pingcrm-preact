@@ -28,7 +28,6 @@ export default () => {
           content="laravel, inertia, inertiajs, inertia.js, preact, preactjs, adapter, pingcrm, pingcrm-preact"
         />
         <meta name="robots" content="index, nofollow" />
-        <meta name="referrer" content="no-referrer" />
       </Head>
       <div class="w-full max-w-md">
         <Logo class="block mx-auto w-full max-w-xs fill-white" height="50" />
