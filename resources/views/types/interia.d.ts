@@ -43,8 +43,10 @@ declare global {
         links: Link[]
       }
       user: App.Models.Users
-      laravelVersion: string
-      phpVersion: string
+      versions: {
+        php: string
+        laravel: string
+      }
     }
   }
 }

@@ -49,12 +49,6 @@ Setup configuration:
 cp .env.example .env
 ```
 
-Change DB driver in `.env` to sqlite:
-
-```bash
-DB_CONNECTION=sqlite
-```
-
 Generate application key:
 
 ```bash
