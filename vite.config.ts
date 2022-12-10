@@ -7,17 +7,6 @@ export default defineConfig({
   esbuild: {
     legalComments: 'none',
   },
-  /* build: {
-    minify: false,
-  }, */
-  server: {
-    strictPort: true,
-    port: 3000,
-    host: '192.168.178.61',
-    hmr: {
-      host: '192.168.178.61',
-    },
-  },
   plugins: [
     laravel({
       input: ['resources/application/main.tsx'],
