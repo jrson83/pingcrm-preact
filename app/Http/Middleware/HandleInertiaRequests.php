@@ -37,14 +37,14 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request)
     {
         return array_merge(parent::share($request), [
-            'app' => [
+            /* 'app' => [
                 'name' => config('app.name'),
                 'url' => config('app.url'),
             ],
             'versions' => [
                 'php' => PHP_VERSION,
                 'laravel' => \Illuminate\Foundation\Application::VERSION
-            ],
+            ], */
             'auth' => function () use ($request) {
                 return [
                     'user' => $request->user() ? [

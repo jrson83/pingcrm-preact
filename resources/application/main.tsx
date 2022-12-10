@@ -7,8 +7,11 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 
 import '../css/app.css'
 
+const appName = import.meta.env.VITE_APP_NAME
+
 createInertiaApp({
   progress: false,
+  title: (title) => `${title} - ${appName}`,
   resolve: (name) =>
     resolvePageComponent(
       `../views/pages/${name}.tsx`,
