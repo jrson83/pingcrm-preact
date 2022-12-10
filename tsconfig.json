@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client", "@jrson83/inertia-preact"],
+    "types": ["vite/client"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["resources/*"]
