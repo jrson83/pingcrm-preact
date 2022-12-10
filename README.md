@@ -1,6 +1,6 @@
 # Ping CRM
 
-A demo application to illustrate how [Inertia.js](https://inertiajs.com/) works with [Laravel](https://laravel.com/) and [Preact](https://preactjs.com/).
+A demo application to illustrate how [Inertia.js](https://inertiajs.com/) works with [Laravel](https://laravel.com/) and the [Inertia.js Preact Adapter](https://github.com/jrson83/inertia-preact).
 
 > This is a modified port of the original Laravel/Vue [Ping CRM](https://github.com/inertiajs/pingcrm) and the Laravel/React [Ping CRM](https://github.com/Landish/pingcrm-react).
 
